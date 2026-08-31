@@ -1,0 +1,87 @@
+html{
+    font-size: 16px;
+}
+body{
+    background-color: #f9efff;
+    margin: 20px;
+    font-family: monospace;
+    cursor: "&#x1F498", auto;
+}
+h1{
+    font-family: monospace;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #a56bcc;
+    text-transform: capitalize;
+    line-height: 1.2;
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+#home-header{
+    font-family: "monotalic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 6rem;
+    text-align: center;
+    
+    padding: 6rem 0 6rem 0;
+    background-color: #fffff1;
+    margin: 1rem 0 2rem 0;
+}
+h2{
+    font-family: monospace;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 1rem 0 1rem 0;
+}
+h3{
+    font-family: monospace; 
+    font-size: 1.5rem;
+    font-weight: bold;  
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+p{
+    font-family: monospace;
+    line-height: 1.5;
+    font-size: 1rem;
+    letter-spacing: 1;
+    width: 75%;
+    margin-bottom: 1rem;
+}
+li{
+    font-family: monospace;
+    margin: 10px;
+    line-height: 1.5;
+}
+
+hr{
+    color: #c19cd9;
+    margin-bottom: 20px;
+}
+
+li::before{
+    content: "\2605";
+    color: #a56bcc;
+    margin: 5px;
+    font-size: 1rem;
+}
+br{
+    margin-bottom: .5rem;
+}
+nav{
+    display: inline-block;
+    margin: 0rem 0rem 2rem 0rem;
+}
+button{
+    font-family: monospace;
+    background-color: #fffff1;
+    border-radius: .5rem;
+    padding: .4rem;
+    display: inline-block;
+}
+footer{
+    margin: 2rem 0rem 2rem 0rem;
+    display: inline-block;
+}
