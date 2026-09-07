@@ -39,14 +39,20 @@ body{
     color: #512d6c; 
     letter-spacing: 1;
     line-height: 1.5;
+    font-size: 1.2rem;
 }
 section{
     margin: auto;
     width: 80vw;
     display: grid;
-    grid-template-columns: repeat(4 auto);
-    grid-template-rows: auto auto;
     border-radius: 1.5rem;
+}
+.sect-works{
+    margin-top: 2rem;
+    padding: 1rem 2rem 2.5rem 3rem;
+}
+main{
+    margin: 1rem;
 }
 
 /* headings */
@@ -71,17 +77,16 @@ h1{
 }
 h2{
     font-size: 2.5rem;
-    margin: 2rem 0 .5rem 0;
+    margin: 1rem 0 .5rem 0;
 }
 h3{
     font-size: 2rem;
-    margin: 1rem 0 1rem 0;
+    margin: 0rem 0 1rem 0;
 }
 
 /* body texts */
 p{
     line-height: 1.5;
-    font-size: 1.2rem;
     font-weight: 200;  
     letter-spacing: 1;
     margin-bottom: 1rem;
@@ -118,13 +123,6 @@ li{
     display: inline-block;
     max-width: 100%;
     min-width: 15%;
-}
-#work{
-    margin-top: 2rem;
-    padding: 1rem 2rem 2rem 2rem;
-}
-.poster1{
-    max-height: 50em;
 }
 
 hr{
@@ -309,9 +307,17 @@ img{
         margin-top: .5rem;
     }
     .grid-art{
-        grid-auto-flow: column;
-        grid-template-rows: auto auto 5fr;
-        grid-template-columns: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    section{
+        width: 75vw;
+    }
+    header{
+        width: 75vw;
+    }
+    #home-header{
+        font-size: 5rem;
     }
     #about{
         flex-direction: column;
@@ -319,6 +325,53 @@ img{
     }
     p{
         font-size: 1.1rem;
+    }
+}
+@media screen and (min-width:48rem){
+    .sect-works{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    column-gap: 2rem;
+    row-gap: 2.5rem;
+    justify-content: left;
+    justify-items: left;
+    }
+    .txt0{
+        max-width: 100%;
+        grid-row: 1 / 3;
+        grid-column: 1 / 3;
+    }
+    .txt1{
+        max-width: 100%;
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+    }
+    .img1{
+        max-height: 70em;
+        max-width: 100%;
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+    }
+    .txt2{
+        max-width: 100%;
+        grid-row: 3 / 4;
+        grid-column: 2 / 3;
+    }
+    .img2{
+        max-width: 100%;
+        grid-row: 3 / 4;
+        grid-column: 1 / 2;
+    }
+    .txt3{
+        max-width: 100%;
+        grid-row: 4 / 5;
+        grid-column: 2 / 3;
+    }
+    .img3{
+        max-width: 100%;
+        grid-row: 4 / 5;
+        grid-column: 1 / 2;
     }
 }
 
