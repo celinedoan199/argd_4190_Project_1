@@ -40,6 +40,7 @@ body{
     letter-spacing: 1;
     line-height: 1.5;
     font-size: 1.2rem;
+    margin: auto;
 }
 section{
     margin: auto;
@@ -49,26 +50,28 @@ section{
 }
 .sect-works{
     margin-top: 2rem;
-    padding: 1rem 2rem 2.5rem 3rem;
-}
-main{
-    margin: 1rem;
+    padding: 1rem 2rem 1rem 2rem;
 }
 
 /* headings */
 #home-header{
     font-size: 7rem;
-    padding: 5rem 0 5rem 0;
+    width: 100%;
     background-color: #fffff1;
-    margin: 1rem 0 2rem 0;
+    margin: 2rem 0 2rem 0;
+    padding: 5rem 0 5rem 0;
 }
 header{
     .work-title{
         font-size: 4rem;
     }
-    padding: 4rem 4rem 3rem 4rem;
     background-color: #fffff1;
     margin: 2rem 0 2rem 0;
+    padding: 2rem 0 2rem 0;
+    max-width: 100%;
+    height: auto;
+    display: grid;
+    justify-items: center;
 }
 h1{
     font-size: 2.5rem;
@@ -310,14 +313,11 @@ img{
         display: flex;
         flex-direction: column;
     }
-    section{
-        width: 75vw;
-    }
-    header{
-        width: 75vw;
-    }
     #home-header{
         font-size: 5rem;
+    }
+    section{
+        width: 75vw;
     }
     #about{
         flex-direction: column;
