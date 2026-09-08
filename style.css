@@ -1,6 +1,3 @@
-:root{
-    --primary-color: #c19cd9;
-}
 html{
     font-size: 16px;
 }
@@ -35,8 +32,8 @@ html{
 
 body{
     background-color: #f9efff;
+    color: #512d6c;
     font-family: monospace;
-    color: #512d6c; 
     letter-spacing: 1;
     line-height: 1.5;
     font-size: 1.2rem;
@@ -57,7 +54,6 @@ section{
 #home-header{
     font-size: 7rem;
     width: 100%;
-    background-color: #fffff1;
     margin: 2rem 0 2rem 0;
     padding: 5rem 0 5rem 0;
 }
@@ -101,7 +97,7 @@ li{
 .bullets{
     li::before{
     content: "\2605";
-    color: #a56bcc;
+    color: #714493;
     margin: 0 .5rem 0 0;
     font-size: 1rem;
     }
@@ -126,11 +122,6 @@ li{
     display: inline-block;
     max-width: 100%;
     min-width: 15%;
-}
-
-hr{
-    color: #714493;
-    margin-bottom: 20px;
 }
 br{
     margin-bottom: .5rem;
